@@ -6129,7 +6129,8 @@ function CMain(a) {
     ;
     s_oMain = this;
     var h = a;
-    ENABLE_FULLSCREEN = ENABLE_CHECK_ORIENTATION = !0;
+    ENABLE_FULLSCREEN = !0;
+    ENABLE_CHECK_ORIENTATION = !1;
     STARTING_NUM_CARDS = 7;
     s_bAudioActive = !0;
     this.initContainer()
